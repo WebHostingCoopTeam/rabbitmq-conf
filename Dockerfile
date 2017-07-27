@@ -12,5 +12,5 @@ VOLUME /data/confd
 VOLUME /opt/rancher/bin
 VOLUME /etc/rabbitmq
 
-ENTRYPOINT ["/dockerentry.sh"]
+ENTRYPOINT ["dockerentry.sh"]
 CMD ["--backend", "rancher", "--prefix", "/2015-07-25"]

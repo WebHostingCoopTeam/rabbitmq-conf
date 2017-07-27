@@ -2,4 +2,4 @@
 
 set -e
 
-exec /docker-entrypoint.sh rabbitmq-server
+exec /usr/local/bin/docker-entrypoint.sh rabbitmq-server
