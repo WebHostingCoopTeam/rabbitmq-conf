@@ -1,6 +1,8 @@
 #!/bin/sh
 
 cp /run.sh /opt/rancher/bin/
+chmod +x /opt/rancher/bin/run.sh
+
 
 if [[ -v ALTERNATE_CONF ]]; then 
     echo "Custom template found: overriding internal template";
